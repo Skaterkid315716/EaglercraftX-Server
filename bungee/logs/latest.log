@@ -103,3 +103,15 @@ java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plu
 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 [19:29:22] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[19:31:05] [Shutdown Thread/INFO]: Closing listener [id: 0x6f000781, L:/127.0.0.1:25577]
+[19:31:05] [Shutdown Thread/INFO]: Closing pending connections
+[19:31:05] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[19:31:06] [Shutdown Thread/INFO]: Disabling plugins
+[19:31:06] [Shutdown Thread/ERROR]: Exception disabling plugin EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.ISkinService.shutdown()" because "this.skinService" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onDisable(EaglerXBungee.java:199) ~[?:?]
+	at net.md_5.bungee.BungeeCord.independentThreadStop(BungeeCord.java:483) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.access$000(BungeeCord.java:102) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord$5.run(BungeeCord.java:423) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+[19:31:06] [Shutdown Thread/INFO]: Closing IO threads
+[19:31:08] [Shutdown Thread/INFO]: Thank you and goodbye

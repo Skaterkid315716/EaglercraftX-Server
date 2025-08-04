@@ -427,3 +427,5 @@
 [19:29:38] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
 [19:29:38] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
 [19:29:48] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[19:31:00] [Thread-2/INFO]: Stopping server
+[19:31:00] [Thread-2/INFO]: Disabling EssentialsSpawn v2.22.0-dev+8-689c35f
