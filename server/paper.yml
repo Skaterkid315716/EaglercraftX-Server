@@ -36,7 +36,6 @@ world-settings:
       flat-bedrock: false
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
-    player-blocking-damage-multiplier: 0.5
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
@@ -56,18 +55,19 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    remove-invalid-mob-spawner-tile-entities: true
     falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
+    nether-ceiling-void-damage: false
+    player-blocking-damage-multiplier: 0.5
+    remove-invalid-mob-spawner-tile-entities: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
