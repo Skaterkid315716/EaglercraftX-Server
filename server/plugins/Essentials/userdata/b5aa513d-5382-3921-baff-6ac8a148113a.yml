@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1754337825177
-  login: 1754337739549
+  logout: 1754338137947
+  login: 1754337987435
 money: '0.0'
 last-account-name: Skaterkid3712
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: 134.87909629982832
   y: 141.5
   z: 233.89341663300922
-  yaw: 264.1421813964844
-  pitch: 37.20000076293945
+  yaw: 274.7921447753906
+  pitch: -5.100001811981201
