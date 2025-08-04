@@ -52,3 +52,13 @@
 [19:37:23] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57750]: Origin header is https://eaglercraft.com
 [19:38:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33864]: Connected via websocket
 [19:38:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33864]: Origin header is https://eaglercraft.com
+[19:44:01] [Shutdown Thread/INFO]: Closing listener [id: 0xc5969c54, L:/[0:0:0:0:0:0:0:0%0]:25577]
+[19:44:01] [Shutdown Thread/INFO]: Closing pending connections
+[19:44:01] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[19:44:01] [Shutdown Thread/INFO]: Saving reconnect locations
+[19:44:01] [Shutdown Thread/INFO]: Disabling plugins
+[19:44:01] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[19:44:01] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[19:44:01] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_auths.db'
+[19:44:02] [Shutdown Thread/INFO]: Closing IO threads
+[19:44:04] [Shutdown Thread/INFO]: Thank you and goodbye
