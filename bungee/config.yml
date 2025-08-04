@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: "&c&lSkaterSMP &f| &eTycoon&6+&cLifesteal &f[1.21] \n&7Build your empire. Steal hearts. Survive!"
+  motd: '&c&lSkaterSMP &f'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
