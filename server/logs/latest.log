@@ -432,3 +432,5 @@
 [20:02:20] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
 [20:03:45] [Server thread/INFO]: Skaterkid3712 lost connection: Disconnected
 [20:03:45] [Server thread/INFO]: Skaterkid3712 left the game.
+[20:05:08] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+
