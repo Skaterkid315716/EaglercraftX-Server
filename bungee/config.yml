@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: "&a&lSkaterSMP\n&7Tycoon + Lifesteal &f| &eJoin Now!"
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -31,8 +31,8 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: fda949c4-73d8-47eb-ad09-f074def9f81a
 player_limit: -1
+prevent_proxy_connections: false
 ip_forward: true
 groups:
   md_5:
@@ -40,7 +40,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: fda949c4-73d8-47eb-ad09-f074def9f81a
 online_mode: false
 forge_support: true
 disabled_commands:
