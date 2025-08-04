@@ -8,6 +8,7 @@
 # IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
 
 config-version: 9
+data-value-allowed-items: []
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
@@ -19,10 +20,11 @@ stackable-buckets:
   water: false
   milk: false
 warnWhenSettingExcessiveVelocity: true
-data-value-allowed-items: []
 world-settings:
   default:
     verbose: true
+    cache-chunk-maps: false
+    remove-invalid-mob-spawner-tile-entities: true
     generator-settings:
       canyon: true
       caves: true
@@ -36,17 +38,20 @@ world-settings:
       flat-bedrock: false
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
+    falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+    nether-ceiling-void-damage: false
     player-blocking-damage-multiplier: 0.5
-    remove-invalid-mob-spawner-tile-entities: true
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
     optimize-explosions: false
     mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
     tnt-explosion-volume: 4.0
     squid-spawn-height:
       minimum: 45.0
@@ -63,21 +68,16 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    falling-block-height-nerf: 0
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false

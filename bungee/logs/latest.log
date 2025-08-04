@@ -1,52 +1,52 @@
-[21:31:14] [main/INFO]: Using mbed TLS based native cipher.
-[21:31:14] [main/INFO]: Using zlib based native compressor.
-[21:31:14] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[21:31:14] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[21:31:14] [main/INFO]: Epoll is working, utilising it!
-[21:31:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[21:31:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[21:31:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[21:31:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[21:31:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[21:31:14] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[21:31:14] [main/WARN] [Geyser-BungeeCord]:       / \
-[21:31:14] [main/WARN] [Geyser-BungeeCord]:      /   \
-[21:31:14] [main/WARN] [Geyser-BungeeCord]:     /  |  \
-[21:31:14] [main/WARN] [Geyser-BungeeCord]:    /   |   \    Your Waterfall proxy is outdated!
-[21:31:14] [main/WARN] [Geyser-BungeeCord]:   /         \   GEYSER MAY NOT WORK AS INTENDED!
-[21:31:14] [main/WARN] [Geyser-BungeeCord]:  /     o     \
-[21:31:14] [main/WARN] [Geyser-BungeeCord]: /_____________\
-[21:31:15] [main/INFO] [Geyser-BungeeCord]: Loading extensions...
-[21:31:15] [main/INFO] [Geyser-BungeeCord]: Loaded 0 extension(s)
-[21:31:15] [main/INFO]: Loaded plugin Geyser-BungeeCord version 2.2.0-SNAPSHOT by GeyserMC
-[21:31:15] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:15] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:15] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:15] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:15] [main/WARN] [floodgate]: en_ is not a supported Floodgate language.
-[21:31:15] [main/INFO] [floodgate]: Took 477ms to boot Floodgate
-[21:31:15] [main/INFO]: Loaded plugin floodgate version 2.2.4-SNAPSHOT (b118-40d320a) by GeyserMC
-[21:31:15] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:15] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:15] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[21:31:15] [main/WARN]: :>  
-[21:31:15] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[21:31:15] [main/WARN]: :>  
-[21:31:15] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[21:31:15] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[21:31:15] [main/WARN]: :>  apart from the versions listed below:
-[21:31:15] [main/WARN]: :>  
-[21:31:15] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
-[21:31:15] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
-[21:31:15] [main/WARN]: :>  - FlameCord: 1.1.1
-[21:31:15] [main/WARN]: :>  
-[21:31:15] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[21:31:15] [main/WARN]: :>  
-[21:31:15] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[21:31:15] [main/WARN]: :>  
-[21:31:15] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[21:31:15] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
-[21:31:16] [main/WARN]: Could not load server icon
+[21:36:45] [main/INFO]: Using mbed TLS based native cipher.
+[21:36:45] [main/INFO]: Using zlib based native compressor.
+[21:36:45] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[21:36:45] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[21:36:45] [main/INFO]: Epoll is working, utilising it!
+[21:36:45] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[21:36:45] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[21:36:45] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[21:36:45] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[21:36:45] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[21:36:45] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[21:36:45] [main/WARN] [Geyser-BungeeCord]:       / \
+[21:36:45] [main/WARN] [Geyser-BungeeCord]:      /   \
+[21:36:45] [main/WARN] [Geyser-BungeeCord]:     /  |  \
+[21:36:45] [main/WARN] [Geyser-BungeeCord]:    /   |   \    Your Waterfall proxy is outdated!
+[21:36:45] [main/WARN] [Geyser-BungeeCord]:   /         \   GEYSER MAY NOT WORK AS INTENDED!
+[21:36:45] [main/WARN] [Geyser-BungeeCord]:  /     o     \
+[21:36:45] [main/WARN] [Geyser-BungeeCord]: /_____________\
+[21:36:45] [main/INFO] [Geyser-BungeeCord]: Loading extensions...
+[21:36:45] [main/INFO] [Geyser-BungeeCord]: Loaded 0 extension(s)
+[21:36:45] [main/INFO]: Loaded plugin Geyser-BungeeCord version 2.2.0-SNAPSHOT by GeyserMC
+[21:36:45] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:45] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:45] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:45] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/WARN] [floodgate]: en_ is not a supported Floodgate language.
+[21:36:46] [main/INFO] [floodgate]: Took 449ms to boot Floodgate
+[21:36:46] [main/INFO]: Loaded plugin floodgate version 2.2.4-SNAPSHOT (b118-40d320a) by GeyserMC
+[21:36:46] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[21:36:46] [main/WARN]: :>  
+[21:36:46] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[21:36:46] [main/WARN]: :>  
+[21:36:46] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[21:36:46] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[21:36:46] [main/WARN]: :>  apart from the versions listed below:
+[21:36:46] [main/WARN]: :>  
+[21:36:46] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[21:36:46] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[21:36:46] [main/WARN]: :>  - FlameCord: 1.1.1
+[21:36:46] [main/WARN]: :>  
+[21:36:46] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[21:36:46] [main/WARN]: :>  
+[21:36:46] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[21:36:46] [main/WARN]: :>  
+[21:36:46] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[21:36:46] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[21:36:46] [main/WARN]: Could not load server icon
 java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 	at net.md_5.bungee.api.Favicon.create(Favicon.java:65) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:89) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
@@ -54,19 +54,19 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:288) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-[21:31:16] [main/WARN]: Forced host server pvp is not defined
-[21:31:16] [main/INFO]: Enabled plugin Geyser-BungeeCord version 2.2.0-SNAPSHOT by GeyserMC
-[21:31:16] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: ******************************************
-[21:31:16] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: 
-[21:31:16] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Loading Geyser version 2.2.0-SNAPSHOT (git-master-118e769)
-[21:31:16] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: 
-[21:31:16] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: ******************************************
-[21:31:16] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:16] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:16] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:16] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:16] [main/ERROR] [floodgate]: You're running an outdated version of BungeeCord. Please update BungeeCord to the latest version!
-[21:31:16] [main/WARN]: Exception encountered when loading plugin: floodgate
+[21:36:46] [main/WARN]: Forced host server pvp is not defined
+[21:36:46] [main/INFO]: Enabled plugin Geyser-BungeeCord version 2.2.0-SNAPSHOT by GeyserMC
+[21:36:46] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: ******************************************
+[21:36:46] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: 
+[21:36:46] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Loading Geyser version 2.2.0-SNAPSHOT (git-master-118e769)
+[21:36:46] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: 
+[21:36:46] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: ******************************************
+[21:36:46] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/ERROR] [floodgate]: You're running an outdated version of BungeeCord. Please update BungeeCord to the latest version!
+[21:36:46] [main/WARN]: Exception encountered when loading plugin: floodgate
 java.lang.Error: You're running an outdated version of BungeeCord. Please update BungeeCord to the latest version!
 	at org.geysermc.floodgate.inject.bungee.BungeeInjector.inject(BungeeInjector.java:48) ~[?:?]
 	at org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71) ~[?:?]
@@ -75,26 +75,42 @@ java.lang.Error: You're running an outdated version of BungeeCord. Please update
 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:299) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-[21:31:16] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:16] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[21:31:16] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[21:31:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[21:31:16] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[21:31:16] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
-[21:31:16] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
-[21:31:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Started Geyser on 0.0.0.0:19132
-[21:31:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Done (9.967s)! Run /geyser help for help!
-[21:31:26] [Thread-8/INFO] [Geyser-BungeeCord]: There's a new Geyser update available to support Bedrock version 1.21.94. Download it here: https://geysermc.org/download
-[21:36:13] [Shutdown Thread/INFO]: Closing listener [id: 0x458824c8, L:local:E:5482a166]
-[21:36:13] [Shutdown Thread/INFO]: Closing listener [id: 0x71ada5e5, L:/[0:0:0:0:0:0:0:0%0]:25577]
-[21:36:13] [Shutdown Thread/INFO]: Closing pending connections
-[21:36:13] [Shutdown Thread/INFO]: Disconnecting 0 connections
-[21:36:13] [Shutdown Thread/INFO]: Saving reconnect locations
-[21:36:13] [Shutdown Thread/INFO]: Disabling plugins
-[21:36:13] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
-[21:36:13] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
-[21:36:13] [Shutdown Thread/INFO] [Geyser-BungeeCord]: Shutting down Geyser.
-[21:36:13] [Shutdown Thread/INFO] [Geyser-BungeeCord]: Geyser shutdown successfully.
-[21:36:13] [Shutdown Thread/INFO]: Closing IO threads
-[21:36:13] [WebSocketConnectReadThread-43/INFO] [Geyser-BungeeCord]: The skin uploader has been closed
-[21:36:15] [Shutdown Thread/INFO]: Thank you and goodbye
+[21:36:46] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[21:36:46] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[21:36:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[21:36:47] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[21:36:47] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[21:36:47] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[21:36:56] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Started Geyser on 0.0.0.0:19132
+[21:36:56] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Done (9.895s)! Run /geyser help for help!
+[21:36:56] [Thread-8/INFO] [Geyser-BungeeCord]: There's a new Geyser update available to support Bedrock version 1.21.94. Download it here: https://geysermc.org/download
+[21:36:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59512]: Connected via websocket
+[21:36:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59512]: Origin header is https://eaglercraft.com
+[21:36:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59512]: Logged in as 'Skaterkid3712'
+[21:36:59] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:59512|Skaterkid3712] -> UpstreamBridge has connected
+[21:36:59] [Netty Worker IO Thread #1/INFO]: [Skaterkid3712|/[0:0:0:0:0:0:0:1%0]:59512] <-> ServerConnector [lobby] has connected
+[21:37:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:59512|Skaterkid3712] -> UpstreamBridge has disconnected
+[21:37:09] [Netty Worker IO Thread #1/INFO]: [Skaterkid3712] disconnected with: Kicked whilst connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[21:37:09] [Netty Worker IO Thread #1/INFO]: [Skaterkid3712|/[0:0:0:0:0:0:0:1%0]:59512] <-> ServerConnector [lobby] has disconnected
+[21:37:16] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40184]: Connected via websocket
+[21:37:16] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40184]: Origin header is https://eaglercraft.com
+[21:37:16] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40184]: Logged in as 'Skaterkid3712'
+[21:37:16] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40184|Skaterkid3712] -> UpstreamBridge has connected
+[21:37:16] [Netty Worker IO Thread #2/INFO]: [Skaterkid3712|/[0:0:0:0:0:0:0:1%0]:40184] <-> ServerConnector [lobby] has connected
+[21:39:26] [Netty Worker IO Thread #2/INFO]: [Skaterkid3712] disconnected with: Server closed
+[21:39:26] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40184|Skaterkid3712] -> UpstreamBridge has disconnected
+[21:39:26] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40184|Skaterkid3712] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:39:31] [Shutdown Thread/INFO]: Closing listener [id: 0xac17365c, L:local:E:f9b43e04]
+[21:39:31] [Shutdown Thread/INFO]: Closing listener [id: 0x0e0c437a, L:/[0:0:0:0:0:0:0:0%0]:25577]
+[21:39:31] [Shutdown Thread/INFO]: Closing pending connections
+[21:39:31] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[21:39:32] [Shutdown Thread/INFO]: Saving reconnect locations
+[21:39:32] [Shutdown Thread/INFO]: Disabling plugins
+[21:39:32] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[21:39:32] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[21:39:32] [Shutdown Thread/INFO] [Geyser-BungeeCord]: Shutting down Geyser.
+[21:39:32] [Shutdown Thread/INFO] [Geyser-BungeeCord]: Geyser shutdown successfully.
+[21:39:32] [Shutdown Thread/INFO]: Closing IO threads
+[21:39:32] [WebSocketConnectReadThread-43/INFO] [Geyser-BungeeCord]: The skin uploader has been closed
+[21:39:34] [Shutdown Thread/INFO]: Thank you and goodbye
