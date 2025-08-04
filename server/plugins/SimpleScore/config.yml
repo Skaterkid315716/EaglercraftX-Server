@@ -19,6 +19,3 @@ options:
 language: en
 checkForUpdates: true
 version: 3
-
-storage:
-  driver: none
