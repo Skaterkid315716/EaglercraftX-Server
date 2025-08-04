@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1754326786119
+  lastteleport: 1754341738959
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1754338603616
-  login: 1754340287447
-money: '0.0'
+  login: 1754341082154
+money: '2000000000.0'
 last-account-name: Skaterkid3712
 lastlocation:
-  world: 871150b8-c7aa-4e78-bd50-3aa12dfc7dc2
-  world-name: world
-  x: 244.70725880425834
-  y: 79.0
-  z: 187.17320276811486
-  yaw: -179.10000610351562
-  pitch: 19.80000877380371
+  world: 547536e9-2ec7-4cc5-8970-c1edf1a45d26
+  world-name: world_the_end
+  x: -70.5
+  y: 57.0
+  z: -9.5
+  yaw: -292.957763671875
+  pitch: 4.650008201599121
 logoutlocation:
   world: 871150b8-c7aa-4e78-bd50-3aa12dfc7dc2
   world-name: world
