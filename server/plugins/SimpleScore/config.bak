@@ -1,0 +1,17 @@
+scoreboards:
+  default:
+    title: '&a&lYour Server'
+    lines:
+      - '&7&m-------------------'
+      - '&fName: &a%player_name%'
+      - '&fRank: &e%luckperms_primary_group%'
+      - '&fBalance: &6$%vault_eco_balance%'
+      - ''
+      - '&fOnline: &b%server_online%'
+      - '&fPing: &c%player_ping%'
+      - '&7&m-------------------'
+
+options:
+  use-placeholders: true
+  update-interval: 2
+  disabled-worlds: []
