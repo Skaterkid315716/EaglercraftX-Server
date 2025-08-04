@@ -1,5 +1,5 @@
-server_name: 'SkaterSMP'
-server_uuid: 85284b1b-0fcc-48f6-af75-d02360f59775
+server_name: 'EaglercraftXBungee Server'
+server_uuid: 7e2527c4-027e-4c73-ba1a-eac675867036
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000
 http_websocket_compression_level: 6
@@ -18,4 +18,4 @@ skin_cache_max_profiles: 32768
 skin_cache_antagonists_ratelimit: 15
 sql_driver_class: 'internal'
 sql_driver_path: 'internal'
-eagler_players_vanilla_skin: 'lax1dude'
+eagler_players_vanilla_skin: ''

@@ -1,117 +1,54 @@
-[19:29:22] [main/INFO]: Using mbed TLS based native cipher.
-[19:29:22] [main/INFO]: Using zlib based native compressor.
-[19:29:22] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[19:29:22] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[19:29:22] [main/INFO]: Epoll is working, utilising it!
-[19:29:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[19:29:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[19:29:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[19:29:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[19:29:22] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[19:29:22] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[19:29:22] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[19:29:22] [main/WARN]: :>  
-[19:29:22] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[19:29:22] [main/WARN]: :>  
-[19:29:22] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[19:29:22] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[19:29:22] [main/WARN]: :>  apart from the versions listed below:
-[19:29:22] [main/WARN]: :>  
-[19:29:22] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
-[19:29:22] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
-[19:29:22] [main/WARN]: :>  - FlameCord: 1.1.1
-[19:29:22] [main/WARN]: :>  
-[19:29:22] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[19:29:22] [main/WARN]: :>  
-[19:29:22] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[19:29:22] [main/WARN]: :>  
-[19:29:22] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[19:29:22] [main/WARN]: Error loading plugin EaglercraftXBungee
-org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
- in 'reader', line 48, column 5:
-        motd:"§c§lSkaterSMP §f| §eTycoon ... 
-        ^
-could not find expected ':'
- in 'reader', line 49, column 13:
-          enable: false
-                ^
-
-	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:527) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:332) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:262) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryValue.produce(ParserImpl.java:635) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryKey.produce(ParserImpl.java:617) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:239) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:208) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:270) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:210) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:160) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:184) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:477) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:470) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:111) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:79) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:71) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:82) ~[?:?]
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:219) ~[?:?]
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:107) ~[?:?]
-	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:398) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:300) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:287) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-[19:29:22] [main/WARN]: Forced host server pvp is not defined
-[19:29:22] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[19:29:22] [main/WARN]: Exception encountered when loading plugin: EaglercraftXBungee
-java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:119) ~[?:?]
-	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:315) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:299) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-[19:29:22] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[19:31:05] [Shutdown Thread/INFO]: Closing listener [id: 0x6f000781, L:/127.0.0.1:25577]
-[19:31:05] [Shutdown Thread/INFO]: Closing pending connections
-[19:31:05] [Shutdown Thread/INFO]: Disconnecting 0 connections
-[19:31:06] [Shutdown Thread/INFO]: Disabling plugins
-[19:31:06] [Shutdown Thread/ERROR]: Exception disabling plugin EaglercraftXBungee
-java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.ISkinService.shutdown()" because "this.skinService" is null
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onDisable(EaglerXBungee.java:199) ~[?:?]
-	at net.md_5.bungee.BungeeCord.independentThreadStop(BungeeCord.java:483) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.BungeeCord.access$000(BungeeCord.java:102) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-	at net.md_5.bungee.BungeeCord$5.run(BungeeCord.java:423) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-[19:31:06] [Shutdown Thread/INFO]: Closing IO threads
-[19:31:08] [Shutdown Thread/INFO]: Thank you and goodbye
+[19:36:49] [main/INFO]: Using mbed TLS based native cipher.
+[19:36:49] [main/INFO]: Using zlib based native compressor.
+[19:36:49] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[19:36:49] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[19:36:49] [main/INFO]: Epoll is working, utilising it!
+[19:36:49] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[19:36:49] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[19:36:49] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[19:36:49] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[19:36:49] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[19:36:49] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[19:36:49] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[19:36:49] [main/WARN]: :>  
+[19:36:49] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[19:36:49] [main/WARN]: :>  
+[19:36:49] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[19:36:49] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[19:36:49] [main/WARN]: :>  apart from the versions listed below:
+[19:36:49] [main/WARN]: :>  
+[19:36:49] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[19:36:49] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[19:36:49] [main/WARN]: :>  - FlameCord: 1.1.1
+[19:36:49] [main/WARN]: :>  
+[19:36:49] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[19:36:49] [main/WARN]: :>  
+[19:36:49] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[19:36:49] [main/WARN]: :>  
+[19:36:49] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[19:36:49] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[19:36:49] [main/WARN]: Forced host server pvp is not defined
+[19:36:49] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:36:49] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[19:36:50] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[19:36:50] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_auths.db
+[19:36:50] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[19:36:50] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[19:37:16] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/EaglercraftX-Server/bungee/server-icon.png
+[19:37:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40030]: Connected via websocket
+[19:37:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40030]: Origin header is https://eaglercraft.com
+[19:37:23] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57750]: Connected via websocket
+[19:37:23] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57750]: Origin header is https://eaglercraft.com
+[19:38:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33864]: Connected via websocket
+[19:38:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33864]: Origin header is https://eaglercraft.com
