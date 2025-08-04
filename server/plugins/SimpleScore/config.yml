@@ -2,24 +2,33 @@
 # https://www.spigotmc.org/resources/simplescore.67586/
 
 scoreboard:
-  # How often (in ticks) to update the scoreboard. 20 ticks = 1 second
   update-interval: 20
-
-  # Title displayed at the top of the scoreboard
-  title: '&6&lSkaterSMP &7| &eTycoon &b+ &cLifesteal'
-
-  # Lines displayed on the scoreboard, supports PlaceholderAPI placeholders
+  title: simple
   lines:
-    - '&7&m-------------------'
-    - '&fName: &a%player_name%'
-    - '&fRank: &e%luckperms_primary_group%'
-    - '&fBalance: &6$%vault_eco_balance%'
-    - ''
-    - '&fOnline: &b%server_online%'
-    - '&fPing: &e%player_ping%'
-    - '&7&m-------------------'
-
-# Optional: You can add more settings below if your version supports them
-# For example:
-# hide-in-creative: true
-# hide-in-spectator: true
+  - '&7&m-------------------'
+  - '&fName: &a%player_name%'
+  - '&fRank: &e%luckperms_primary_group%'
+  - '&fBalance: &6$%vault_eco_balance%'
+  - ''
+  - '&fOnline: &b%server_online%'
+  - '&fPing: &e%player_ping%'
+  - '&7&m-------------------'
+language: en
+checkForUpdates: true
+version: 3
+storage:
+  driver: none
+  tablePrefix: simplescore_
+  address: 127.0.0.1:3306
+  database: minecraft
+  username: simplescore
+  password: '|D/-\55\^/0|2|)'
+  pool:
+    maximumPoolSize: 8
+    minimumIdle: 8
+    maxLifetime: 1800000
+    keepaliveTime: 0
+    connectionTimeout: 5000
+    extraProperties:
+      useUnicode: true
+      characterEncoding: utf8

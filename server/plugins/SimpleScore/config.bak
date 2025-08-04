@@ -1,17 +1,25 @@
-scoreboards:
-  default:
-    title: '&a&lYour Server'
-    lines:
-      - '&7&m-------------------'
-      - '&fName: &a%player_name%'
-      - '&fRank: &e%luckperms_primary_group%'
-      - '&fBalance: &6$%vault_eco_balance%'
-      - ''
-      - '&fOnline: &b%server_online%'
-      - '&fPing: &c%player_ping%'
-      - '&7&m-------------------'
+# SimpleScore Configuration File
+# https://www.spigotmc.org/resources/simplescore.67586/
 
-options:
-  use-placeholders: true
-  update-interval: 2
-  disabled-worlds: []
+scoreboard:
+  # How often (in ticks) to update the scoreboard. 20 ticks = 1 second
+  update-interval: 20
+
+  # Title displayed at the top of the scoreboard
+  title: '&6&lSkaterSMP &7| &eTycoon &b+ &cLifesteal'
+
+  # Lines displayed on the scoreboard, supports PlaceholderAPI placeholders
+  lines:
+    - '&7&m-------------------'
+    - '&fName: &a%player_name%'
+    - '&fRank: &e%luckperms_primary_group%'
+    - '&fBalance: &6$%vault_eco_balance%'
+    - ''
+    - '&fOnline: &b%server_online%'
+    - '&fPing: &e%player_ping%'
+    - '&7&m-------------------'
+
+# Optional: You can add more settings below if your version supports them
+# For example:
+# hide-in-creative: true
+# hide-in-spectator: true
