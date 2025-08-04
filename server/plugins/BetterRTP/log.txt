@@ -1,57 +1,18 @@
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Loading Overrides...
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Loading World Types...
-2025-08-04 16:33:09 [INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
-2025-08-04 16:33:09 [INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
-2025-08-04 16:33:09 [INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Loading Defaults...
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Loading Custom Worlds...
-2025-08-04 16:33:09 [INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-08-04 16:33:09 [INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Database COOLDOWN:world configured and loaded!
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Database COOLDOWN:world_nether configured and loaded!
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Database COOLDOWN:world_the_end configured and loaded!
-2025-08-04 16:33:09 [INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
-2025-08-04 16:33:10 [INFO]: [BetterRTP] Attempting to queue up some more safe locations...
-2025-08-04 16:33:12 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 2, location= x: 809, y: 65, z: -21, world: world
-2025-08-04 16:33:13 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 3, location= x: -304, y: 98, z: -470, world: world
-2025-08-04 16:33:14 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 4, location= x: 742, y: 80, z: -935, world: world
-2025-08-04 16:33:16 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 5, location= x: 264, y: 83, z: -436, world: world
-2025-08-04 16:33:17 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 6, location= x: 595, y: 100, z: -635, world: world
-2025-08-04 16:33:19 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 7, location= x: 989, y: 79, z: 432, world: world
-2025-08-04 16:33:20 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 8, location= x: 84, y: 64, z: 798, world: world
-2025-08-04 16:33:21 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 9, location= x: 497, y: 70, z: -349, world: world
-2025-08-04 16:33:22 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 10, location= x: 250, y: 89, z: -578, world: world
-2025-08-04 16:33:24 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 11, location= x: -691, y: 74, z: 991, world: world
-2025-08-04 16:33:25 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 12, location= x: 265, y: 70, z: -818, world: world
-2025-08-04 16:33:26 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 13, location= x: 225, y: 64, z: 26, world: world
-2025-08-04 16:33:28 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 14, location= x: 849, y: 63, z: -664, world: world
-2025-08-04 16:33:29 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 15, location= x: 478, y: 94, z: 976, world: world
-2025-08-04 16:33:30 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 16, location= x: 615, y: 68, z: 557, world: world
-2025-08-04 16:33:31 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 17, location= x: 246, y: 69, z: 642, world: world
-2025-08-04 16:33:32 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 18, location= x: 655, y: 69, z: 517, world: world
-2025-08-04 16:33:33 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 19, location= x: 767, y: 68, z: 34, world: world
-2025-08-04 16:33:35 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 20, location= x: 602, y: 66, z: -830, world: world
-2025-08-04 16:33:36 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 21, location= x: 163, y: 65, z: 415, world: world
-2025-08-04 16:33:38 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 22, location= x: 675, y: 68, z: 126, world: world
-2025-08-04 16:33:39 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 23, location= x: -65, y: 76, z: 39, world: world
-2025-08-04 16:33:40 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 24, location= x: 369, y: 64, z: 640, world: world
-2025-08-04 16:33:41 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 25, location= x: -782, y: 68, z: 794, world: world
-2025-08-04 16:33:42 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 26, location= x: -350, y: 66, z: 430, world: world
-2025-08-04 16:33:44 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 27, location= x: -860, y: 66, z: -292, world: world
-2025-08-04 16:33:45 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 28, location= x: -582, y: 70, z: 518, world: world
-2025-08-04 16:33:46 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 29, location= x: 120, y: 77, z: -135, world: world
-2025-08-04 16:33:47 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 30, location= x: 991, y: 64, z: 301, world: world
-2025-08-04 16:33:48 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 31, location= x: -636, y: 68, z: 509, world: world
-2025-08-04 16:33:49 [INFO]: [BetterRTP] Queue position generated: id= default_world, database_ID= 32, location= x: 626, y: 95, z: 906, world: world
-2025-08-04 16:33:50 [INFO]: [BetterRTP] Max queue reached for default_world (amount: 32) lastCount: 1
-2025-08-04 16:34:22 [INFO]: [BetterRTP] Queue position generated: id= default_world_the_end, database_ID= 33, location= x: -71, y: 57, z: -10, world: world_the_end
-2025-08-04 16:34:46 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_world_the_end (amount: 1)
-2025-08-04 16:34:46 [INFO]: [BetterRTP] Queue position generated: id= default_world_nether, database_ID= 34, location= x: -174, y: 98, z: -466, world: world_nether
-2025-08-04 16:35:43 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_world_the_end (amount: 1)
-2025-08-04 16:35:43 [INFO]: [BetterRTP] Queue position generated: id= default_world_nether, database_ID= 35, location= x: 321, y: 55, z: -277, world: world_nether
-2025-08-04 16:35:50 [INFO]: [BetterRTP] Queue position generated: id= default_world_the_end, database_ID= 36, location= x: 89, y: 45, z: -111, world: world_the_end
-2025-08-04 16:36:40 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_world_the_end (amount: 2)
-2025-08-04 16:36:40 [INFO]: [BetterRTP] Queueing paused, max queue limit reached!
-2025-08-04 17:28:34 [INFO]: [BetterRTP] Disabling BetterRTP v3.6.13
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Loading Overrides...
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Loading World Types...
+2025-08-04 18:58:19 [INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+2025-08-04 18:58:19 [INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+2025-08-04 18:58:19 [INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Loading Defaults...
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Loading Custom Worlds...
+2025-08-04 18:58:19 [INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-08-04 18:58:19 [INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Database COOLDOWN:world configured and loaded!
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Database COOLDOWN:world_nether configured and loaded!
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Database COOLDOWN:world_the_end configured and loaded!
+2025-08-04 18:58:19 [INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+2025-08-04 18:58:20 [INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+2025-08-04 18:58:21 [INFO]: [BetterRTP] Queueing paused, max queue limit reached!
+2025-08-04 19:00:28 [INFO]: [BetterRTP] Disabling BetterRTP v3.6.13

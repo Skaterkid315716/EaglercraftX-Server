@@ -45,8 +45,8 @@ listener_01:
       exceptions:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
-    motd:
-      enable: false
+    motd:"§c§lSkaterSMP §f| §eTycoon§6+§cLifesteal §f[1.21]\n§7Build your empire. Steal hearts. Survive!"
+      enable: true
       period: 30
       limit: 5
       limit_lockout: 15
