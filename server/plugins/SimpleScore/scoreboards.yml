@@ -1,77 +1,10 @@
-# 
-# This is where you create your scoreboards to be displayed.
-# 
-# You can create a scoreboard by creating a node with the scoreboard name and then specifying a default "updateTime",
-#  "renderTime" and a list of "titles" and "scores".
 simple:
-  titles: '&7&LYour&6&lServer'
+  titles: '&7&m-------------------'
   scores:
-    '13':
-    - '&7&m+----------------+'
-    - '&7&m------------------'
-    '12': '&7» &6&lPlayer'
-    '11': '    &7%player%'
-    '10': ''
-    '9': '&7» &6&lHealth'
-    '8': '    %hearts%'
-    '7': ''
-    '6': '&7» &6&lWorld'
-    '5': '    &7%world%'
-    '4': ''
-    '3': '&7» &6&lOnline Players'
-    '2': '    &7%online% &6players'
-    '1':
-    - '&7&m+----------------+'
-    - '&7&m------------------'
-customTiming:
-  updateTime: 100
-  renderTime: 50
-  titles:
-  - text: '&c200 ticks/10 seconds title'
-    update: 200
-  - text: '&a100 ticks/5 seconds title'
-    render: 20
-  scores:
-    '6': '&7You can set a per title and score time'
-    '5': '&7instead of using the default value'
-    '4': ''
-    '3':
-    - text: '&7This will last for &810 seconds'
-      update: 200
-    - text: '&7while this only lasts for &85 seconds'
-    '2': ''
-    '1':
-    - text: '&6Your current world is &7%world%&6.'
-      update: 60
-      render: 60
-    - text: '&6There are &7%online% &6players online.'
-      update: 60
-      render: 60
-conditional:
-  updateTime: 60
-  conditions:
-  - hasPermission
-  titles: '&cConditional Scoreboard'
-  scores:
-    '9': ''
-    '8': '&7Scoreboards with a list of conditions require'
-    '7': '&7that the player passes all of them.'
-    '6': ''
-    '5': '&7You can see this scoreboard because you'
-    '4': '&7passed the &8hasPermission &7condition.'
-    '3': ''
-    '2':
-      conditions:
-      - isOverworld
-      frames:
-      - '&7You can see this line because you..'
-      - '&7passed the &8isOverworld &7condition.'
-      else:
-        conditions:
-        - isTheEnd
-        frames:
-        - '&7You can see this line because you..'
-        - '&7passed the &8isTheEnd &7condition but..'
-        - '&7didn''t pass the &8isOverworld &7condition.'
-        else: '&7You didn''t pass any of the conditions.'
-    '1': ''
+    '8': '&fName: &a%player_name%'
+    '7': '&fRank: &e%luckperms_primary_group%'
+    '6': '&fBalance: &6$%vault_eco_balance%'
+    '5': ''
+    '4': '&fOnline: &b%server_online%'
+    '3': '&fPing: &e%player_ping%'
+    '2': '&7&m-------------------'

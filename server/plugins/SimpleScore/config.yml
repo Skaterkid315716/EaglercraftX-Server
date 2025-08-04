@@ -1,21 +1,11 @@
-# SimpleScore Configuration File
-# https://www.spigotmc.org/resources/simplescore.67586/
-
 scoreboard:
   update-interval: 20
   title: simple
-  lines:
-  - '&7&m-------------------'
-  - '&fName: &a%player_name%'
-  - '&fRank: &e%luckperms_primary_group%'
-  - '&fBalance: &6$%vault_eco_balance%'
-  - ''
-  - '&fOnline: &b%server_online%'
-  - '&fPing: &e%player_ping%'
-  - '&7&m-------------------'
+
 language: en
 checkForUpdates: true
 version: 3
+
 storage:
   driver: none
   tablePrefix: simplescore_
